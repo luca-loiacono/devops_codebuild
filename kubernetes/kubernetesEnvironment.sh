@@ -14,23 +14,6 @@ if [[ -d ./react-image-compressor ]]
             echo "[INFO] Repository react-image-compressor.git not exsist.. so i am cloning repo and configure it"
             # Clone repository react-image-compressor
             git clone https://github.com/Rahul-Pandey7/react-image-compressor.git 
-            # Navigate to the project directory
-            #cd react-image-compressor ;
-
-            # Create a Dockerfile
-            #cat <<EOF > Dockerfile
-            #FROM node:12-alpine
-
-            #WORKDIR /app
-
-            #COPY package*.json ./
-
-            #RUN npm install
-
-            #COPY . .
-
-            #CMD ["npm", "start"]
-            #EOF
 
 fi
 
